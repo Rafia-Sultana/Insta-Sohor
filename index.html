@@ -49,15 +49,40 @@
     <main class="main container mx-auto p-3">
         <div id="posts">
         </div>
+        <h1 id="likedPost" style="display: none;">Liked posts</h1>
         <div id="liked">
-            <h1>Liked posts</h1>
-        </div>
 
+        </div>
+        <h1 id="reportPost" style="display: none;">Reported posts</h1>
         <div id="reported">
-            <h1>Reported posts</h1>
+
         </div>
     </main>
-    <footer></footer>
+    <div class="container ">
+        <section class="p-3 bg-success  bg-opacity-10 ">
+
+            <h3 class="fw-bold">**How does JS work?</h3>
+            <p>
+                Javascript is single threded dynamic programming language.Here are many types of system to run
+                JavaScript on browser.Such as- chrome has V8 Engine, firefox has spider-monkey..This Engines convert
+                javascript language to machine language.Though, it is single-threded, but it can handle multiple task at
+                a time parallely. Because, this single-thread hand over its task to helper.Thats why,it works as a
+                non-block programming language.
+            </p>
+            <br>
+            <h3 class="fw-bold">**Differnece between localStorage and sessionStorage?</h3>
+            <p>
+                We store data in localStorage and it remains in a key-value pair format.It also exist after the browser
+                is closed and gets cleared only through javascript.It has no expiry date.But data store in
+                sessionStorage untill the tab is closed.The data can be accessed from the same tab.
+            </p>
+
+
+        </section>
+    </div>
+    <footer>
+
+    </footer>
 
     <!-- add javascript  file  -->
     <script src="./js/app.js"></script>
